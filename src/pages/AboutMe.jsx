@@ -33,7 +33,7 @@ export default function AboutMe() {
         </Col>
         <Col sm={8} className="mt-1 mb-4 fw-bold text-white">Here are technologies I`ve been working with recently</Col>
         <Col sm={8}>
-            <Row className="tools">
+            <Row>
                 <Col className="text-warning">JavaScript</Col>
                 <Col className="text-primary">React JS</Col>
                 <Col className="text-success">Node.js</Col>
