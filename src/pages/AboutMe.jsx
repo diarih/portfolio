@@ -31,14 +31,22 @@ export default function AboutMe() {
             you can count it from mistakes
           </p>
         </Col>
-        <Col sm={8} className="mt-1 mb-4 fw-bold text-white">Here are technologies I`ve been working with recently</Col>
+        <Col sm={8} className="mt-1 mb-4 fw-bold text-white">
+          Here are technologies I`ve been working with recently
+        </Col>
         <Col sm={8}>
-            <Row>
-                <Col className="text-warning">JavaScript</Col>
-                <Col className="text-primary">React JS</Col>
-                <Col className="text-success">Node.js</Col>
-                <Col className="text-white">Express.js</Col>
-            </Row>
+          <Row className="mb-3">
+            <Col sm={2} className="text-warning">JavaScript</Col>
+            <Col sm={2} className="text-primary">React JS</Col>
+            <Col sm={2} className="text-success">Node.js</Col>
+            <Col sm={2} className="text-white">Express.js</Col>
+            <Col sm={2} className="text-warning">Postman</Col>
+          </Row>
+          <Row>
+            <Col sm={2} className="text-danger">Figma</Col>
+            <Col sm={2} className="text-warning">ilustrator</Col>
+            <Col sm={2} className="text-primary">Whimsical</Col>
+          </Row>
         </Col>
       </Row>
     </Layouts>

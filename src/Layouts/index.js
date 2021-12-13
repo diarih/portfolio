@@ -13,7 +13,7 @@ export default function Layouts({ children }) {
           <Col sm={8} className="mt-5">
             {children}
           </Col>
-          <Col sm={4} className="text-white fs-3 m-auto">
+          <Col sm={4} className="text-white fs-2 fw-bold m-auto">
             <Row className="g-4 d-none d-lg-block">
               <Col sm={12}>
                 <NavLink
@@ -32,7 +32,7 @@ export default function Layouts({ children }) {
                     isActive ? "link-edit active-link" : "link-edit glow"
                   }
                 >
-                  Tools
+                  Contact
                 </NavLink>
               </Col>
               <Col sm={12}>
