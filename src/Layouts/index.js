@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import { Row, Col } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import FadeDiv from "../components/FadeDiv";
 
 export default function Layouts({ children }) {
   return (
@@ -11,7 +12,7 @@ export default function Layouts({ children }) {
       <Container className="" style={{ height: "100%" }}>
         <Row className="" style={{ height: "100%" }}>
           <Col sm={8} className="mt-5">
-            {children}
+            <FadeDiv>{children}</FadeDiv>
           </Col>
           <Col sm={4} className="text-white fs-2 fw-bold m-auto">
             <Row className="g-4 d-none d-lg-block">
