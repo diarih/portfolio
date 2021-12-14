@@ -14,9 +14,9 @@ export default function LandingPage() {
             <div dangerouslySetInnerHTML={{ __html: '<h1>Hello iam 👋' }} />
             <div className="fw-bold btn-shine">Ihza</div>
           </div>
-          <Row className="pt-4">
-            <Col sm={3}>Junior Web Dev</Col>
-            <Col>UI/UX Design</Col>
+          <Row className="pt-4 gy-3">
+            <Col xxl={4} xl={4} lg={4} md={12}>Junior Web Dev</Col>
+            <Col xxl={4} xl={4} lg={4} md={12}>UI/UX Design</Col>
           </Row>
         </div>
       </Layouts>

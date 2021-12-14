@@ -13,7 +13,7 @@ export default function Header() {
             <Nav.Link target={"_blank"} href="https://www.linkedin.com/in/diar-ihza/" className="pe-5 d-none d-lg-block">LinkedIn</Nav.Link>
             <Nav.Link target={"_blank"} href="https://github.com/diarih" className="pe-5 d-none d-lg-block">Github</Nav.Link>
             <Nav.Link className="d-lg-none d-block" href="/projects">Projects</Nav.Link>
-            <Nav.Link className="d-lg-none d-block" href="/tools">Tools</Nav.Link>
+            <Nav.Link className="d-lg-none d-block" href="/contact">Contact</Nav.Link>
             <Nav.Link className="d-lg-none d-block" href="/aboutme">About me</Nav.Link>
           </Nav>
           </Navbar.Collapse>

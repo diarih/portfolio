@@ -2,19 +2,25 @@ import React from "react";
 import Layouts from "../Layouts";
 import { Col, Row } from "react-bootstrap";
 
-export default function Tools() {
+export default function Contact() {
   return (
     <Layouts>
       <Row className="mb-5">
         <Col sm={8}>
           <div className="fs-1 fw-bold mb-3 text-light">Contact me</div>
           <div
-            className="fw-bold"
+            className="fw-bold mb-4"
             style={{ color: "rgba(255, 255, 255, 0.80)" }}
           >
             Are you interested? let's work together and reach me through the
             link below
           </div>
+          <i
+            className="fw-bold fs-6"
+            style={{ color: "rgba(255, 255, 255, 0.80)" }}
+          >
+            Click one or more link
+          </i>
         </Col>
         <Col sm={8} className="mt-5">
           <Row className="fs-1 fw-bold gy-4">

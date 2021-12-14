@@ -11,7 +11,7 @@ export default function Projects() {
         style={{ maxHeight: "70vh"}}
       >
         <div className="mb-5">
-          <div className="fs-1 fw-bold mb-3">Something i've working with</div>
+          <div className="fs-2 fw-bold mb-2">Something i've working with</div>
           <div className="fw-bold" style={{ color: "rgba(255, 255, 255, 0.80)" }}>
             Here plenty of works i contributed on recent years
           </div>

@@ -6,7 +6,7 @@ export default function ProjectContent({ title, tools, content, img, demo }) {
   console.log(img);
   return (
     <Row className="gy-4 mb-5">
-      <Col sm={12} className="fs-3 fw-bold">
+      <Col sm={12} className="fs-4 fw-bold">
         {title}
       </Col>
       <Col sm={12} className="fw-bold">
@@ -23,7 +23,7 @@ export default function ProjectContent({ title, tools, content, img, demo }) {
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </Col>
       <Col sm={9}>
-        <a href={demo} target={"_blank"} className="fw-bold"> Demo Here</a>
+        <a href={demo} target={"_blank"} className="fw-bold text-decoration-none demo"> Demo Here</a>
       </Col>
     </Row>
   );

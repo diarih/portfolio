@@ -168,3 +168,12 @@ p {
 .db:hover {
   color: #E94C88!important; 
 }
+
+.demo {
+  color: #6495ED!important;
+}
+
+.hl{
+  color: rgb(255, 255, 255);
+  /* background-color: white; */
+}

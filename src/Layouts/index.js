@@ -27,7 +27,7 @@ export default function Layouts({ children }) {
               </Col>
               <Col sm={12}>
                 <NavLink
-                  to="/tools"
+                  to="/contact"
                   className={({ isActive }) =>
                     isActive ? "link-edit active-link" : "link-edit glow"
                   }
