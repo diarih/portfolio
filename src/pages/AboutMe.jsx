@@ -15,18 +15,18 @@ export default function AboutMe() {
           style={{ color: "rgba(255, 255, 255, 0.80)" }}
         >
           <p>
-            Hello i am Diar Ihza, Junior Website Developer. I love to create
-            wesbite since Senior High School got me back to 2019. Start with
+            Hello I am Diar Ihza, Junior Website Developer. I love to create
+            website since Senior High School got me back to 2019. Start with
             curiosity and learn it by internet was helping me until now.
           </p>
           <p>
             Furthermore, now I have the opportunity to study at the coding
-            skills bootcamp to develop my talent even further. Not only
+            bootcamp to develop my talent even further. Not only
             developing my hard skills, but also developing my soft skills
             through teamwork.
           </p>
           <p>
-            I belive there's no shortcut to get success. Every single time you
+            I believe there's no shortcut to get success. Every single time you
             code, its equal you learn from it. Not only from the success, but
             you can count it from mistakes
           </p>
