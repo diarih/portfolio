@@ -35,17 +35,17 @@ export default function AboutMe() {
           Here are technologies I`ve been working with recently
         </Col>
         <Col sm={8}>
-          <Row className="mb-3">
-            <Col sm={2} className="text-warning">JavaScript</Col>
-            <Col sm={2} className="text-primary">React JS</Col>
-            <Col sm={2} className="text-success">Node.js</Col>
-            <Col sm={2} className="text-white">Express.js</Col>
-            <Col sm={2} className="text-warning">Postman</Col>
+          <Row className="mb-4 gy-3">
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2}  className="text-warning">JavaScript</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-primary">React JS</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-success">Node.js</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-white">Express.js</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-warning">Postman</Col>
           </Row>
-          <Row>
-            <Col sm={2} className="text-danger">Figma</Col>
-            <Col sm={2} className="text-warning">ilustrator</Col>
-            <Col sm={2} className="text-primary">Whimsical</Col>
+          <Row className="mb-4 gy-3">
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-danger">Figma</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-warning">ilustrator</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-primary">Whimsical</Col>
           </Row>
         </Col>
       </Row>
