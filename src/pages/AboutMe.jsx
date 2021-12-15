@@ -36,16 +36,16 @@ export default function AboutMe() {
         </Col>
         <Col sm={8}>
           <Row className="mb-4 gy-3">
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2}  className="text-warning">JavaScript</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-primary">React JS</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-success">Node.js</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-white">Express.js</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-warning">Postman</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={6} xs={6}  className="text-warning">JavaScript</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={6} xs={6} className="text-primary">React JS</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={6} xs={6} className="text-success">Node.js</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={6} xs={6} className="text-white">Express.js</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={6} xs={6} className="text-warning">Postman</Col>
           </Row>
           <Row className="mb-4 gy-3">
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-danger">Figma</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-warning">ilustrator</Col>
-            <Col xxl={2} xl={2} lg={4} md={6} sm={2} className="text-primary">Whimsical</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} xs={6} className="text-danger">Figma</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} xs={6} className="text-warning">ilustrator</Col>
+            <Col xxl={2} xl={2} lg={4} md={6} sm={2} xs={6} className="text-primary">Whimsical</Col>
           </Row>
         </Col>
       </Row>
