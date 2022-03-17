@@ -165,6 +165,10 @@ p {
   color: #E94C88!important; 
 }
 
+.sp:hover {
+  color: #4ce961!important; 
+}
+
 .demo {
   color: #6495ED!important;
 }

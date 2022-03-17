@@ -44,6 +44,11 @@ export default function Contact() {
                 Instagram
               </a>
             </Col>
+            <Col sm={6}>
+              <a href="https://open.spotify.com/user/deihza?si=b80e84a95a5e43c4" target="_blank" rel="noreferrer noopener" className="text-decoration-none sp contact">
+                Spotify
+              </a>
+            </Col>
           </Row>
         </Col>
       </Row>
